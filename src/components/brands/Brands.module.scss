@@ -1,0 +1,125 @@
+
+
+.brands_container {
+  .brand_box {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 5rem;
+    margin-left: 1rem;
+
+    .brand_title {
+      font-weight: 300;
+      font-size: 2rem;
+      line-height: .9;
+      margin: .5rem 0;
+      border: 1px solid red;
+      transition: all .5s ease-out;
+    }
+
+    .brand_vidaveg {
+      background-color: #f3c397;
+    }
+
+    .brand_bioblend {
+      background-color: #FFFFFF;
+    }
+
+    .brand_acougue {
+      background-color: #000000;
+    }
+
+    .brand_veganway {
+      background-color: #FFFFFF;
+    }
+
+    .brand_content {
+      display: flex;
+      overflow-x: auto;
+      height: 440px;
+      border: 1px solid red;
+      border-left: 10px solid var(--primary);
+      border-top: 10px solid var(--primary);
+      border-bottom: 10px solid var(--primary);
+      margin-left: 70%;
+      transition: all .5s ease-out;
+      border-radius: 0 0 0 100px;
+
+      .img_products {
+        margin: 2rem;
+        max-width: 90vw;
+        max-height: 100%;
+        object-fit: scale-down;
+      }
+
+      .img_main {
+        height: 100%;
+        max-width: 100%;
+        object-fit: scale-down;
+        mask-image: linear-gradient(to right, black 90%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to right, black 90%, transparent 100%);
+      }
+
+      .img_main_acougue, .img_main_bioblend {
+        height: 300px;
+        margin: auto 0;
+        margin-right: 100px;
+      }
+
+      .img_main_bioblend {
+        margin-right: 400px;
+      }
+
+      .img_main_veganway, .img_main_vidaveg {
+        object-fit: cover;
+        object-position: left;
+      }
+    }
+
+    .brand_visible {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+
+  .brands_container {
+
+    .brand_box {
+      flex-direction: row;
+      margin-left: 0;
+
+      .brand_content {
+        height: 600px;
+        margin-left: 0;
+
+        .img_main_acougue, .img_main_bioblend {
+          margin-left: 100px;
+        }
+      }
+
+      .brand_title {
+        position: relative;
+        text-align: right;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        min-width: 4rem;
+        margin: 0 .5rem;
+        margin-left: 70%;
+
+        span {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+
+      .brand_title_visible {
+        margin-left: .5rem;
+      }
+    }
+  }
+}
+

@@ -8,6 +8,7 @@ import Container from './components/layout/Container';
 
 /* pages */
 import Home from './components/pages/Home';
+import Contact from './components/pages/Contact';
 import NotFound from './components/pages/NotFound';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Container>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Container>

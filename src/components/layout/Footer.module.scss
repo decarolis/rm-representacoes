@@ -1,8 +1,17 @@
 .footer {
-    height: 100px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: var(--primary);
     border-top: 1px solid var(--gray300);
+
+    div {
+      padding-top: 1.5rem;
+    }
+
+    img {
+      width: 150px;
+    }
 }
