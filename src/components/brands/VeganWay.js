@@ -173,8 +173,6 @@ function VeganWay() {
         src={L_CREATINE_SITE}
         alt="Imagem CREATINE Vegan Way"
       />
-      <img className={styles.img_products} src="" alt="" />
-      <img className={styles.img_products} src="" alt="" />
     </>
   );
 }

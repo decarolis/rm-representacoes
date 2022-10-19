@@ -131,12 +131,6 @@ function BioBlend() {
         src={soparosa}
         alt="Imagem sopa rosa Bio Blend"
       />
-      <img
-        className={styles.img_products}
-        src={capabioblend}
-        alt="Imagem capa Bio Blend"
-      />
-      <img className={styles.img_products} src="" alt="" />
     </>
   );
 }

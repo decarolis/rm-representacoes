@@ -113,10 +113,6 @@ function AcougueVegano() {
         src={Z_Salsicha}
         alt="Imagem Salsicha Açougue Vegano"
       />
-      <img className={styles.img_products} src="" alt="" />
-      <img className={styles.img_products} src="" alt="" />
-      <img className={styles.img_products} src="" alt="" />
-      <img className={styles.img_products} src="" alt="" />
     </>
   );
 }
