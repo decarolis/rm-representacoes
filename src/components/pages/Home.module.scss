@@ -1,6 +1,5 @@
 .home {
   .title {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +12,10 @@
       max-width: 255px;
       margin: 1rem 0;
     }
+  }
+
+  .contact_div {
+    padding: 5rem 3rem 5rem 1rem;
   }
 }
 
@@ -45,6 +48,10 @@
       img {
         max-width: 320px;
       }
+    }
+
+    .contact_div {
+      padding: 5rem;
     }
   }
 }

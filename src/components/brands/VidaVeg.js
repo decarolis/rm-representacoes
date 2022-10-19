@@ -1,4 +1,44 @@
-/* css*/
+/* vidaveg */
+import mousse from '../../assets/img/vidaveg/mousse.png';
+import requeijaovegtradicional from '../../assets/img/vidaveg/requeijaovegtradicional.png';
+import requeijaovegervasfinasepesto from '../../assets/img/vidaveg/requeijaovegervasfinasepesto.png';
+import requeijaovegdefumado from '../../assets/img/vidaveg/requeijaovegdefumado.png';
+import cremedecastanhadecajutradicional from '../../assets/img/vidaveg/cremedecastanhadecajutradicional.png';
+import cremedecastanhadecajuervasfinasepesto from '../../assets/img/vidaveg/cremedecastanhadecajuervasfinasepesto.png';
+import manteigaveg from '../../assets/img/vidaveg/manteigaveg.png';
+import homus from '../../assets/img/vidaveg/homus.png';
+import requeijaobisnagaamarelo from '../../assets/img/vidaveg/requeijaobisnagaamarelo.png';
+import requeijaobisnagabranco from '../../assets/img/vidaveg/requeijaobisnagabranco.png';
+import mucarela from '../../assets/img/vidaveg/mucarela.png';
+import fondue from '../../assets/img/vidaveg/fondue.png';
+import queijoparmesao from '../../assets/img/vidaveg/queijoparmesao.png';
+import queijoparmesaoralado from '../../assets/img/vidaveg/queijoparmesaoralado.png';
+import queijominasfrescal from '../../assets/img/vidaveg/queijominasfrescal.png';
+import queijominaspadrao from '../../assets/img/vidaveg/queijominaspadrao.png';
+import queijomucarela from '../../assets/img/vidaveg/queijomucarela.png';
+import queijomussarela from '../../assets/img/vidaveg/queijomussarela.png';
+import iogurtegregovegmorango from '../../assets/img/vidaveg/iogurtegregovegmorango.png';
+import iogurtegregovegtradicional from '../../assets/img/vidaveg/iogurtegregovegtradicional.png';
+import iogurteproteinmorango from '../../assets/img/vidaveg/iogurteproteinmorango.png';
+import iogurteproteintradicional from '../../assets/img/vidaveg/iogurteproteintradicional.png';
+import iogvegbanana from '../../assets/img/vidaveg/iogvegbanana.png';
+import iogvegcoco from '../../assets/img/vidaveg/iogvegcoco.png';
+import iogvegmorango from '../../assets/img/vidaveg/iogvegmorango.png';
+import iogvegamendoim250 from '../../assets/img/vidaveg/iogvegamendoim250.png';
+import iogvegcookies250 from '../../assets/img/vidaveg/iogvegcookies250.png';
+import iogvegbanana500 from '../../assets/img/vidaveg/iogvegbanana500.png';
+import iogvegcoco500 from '../../assets/img/vidaveg/iogvegcoco500.png';
+import iogvegmorango500 from '../../assets/img/vidaveg/iogvegmorango500.png';
+import vegmilkamendoas from '../../assets/img/vidaveg/vegmilkamendoas.png';
+import vegmilkaveia from '../../assets/img/vidaveg/vegmilkaveia.png';
+import vegmilkcastanha from '../../assets/img/vidaveg/vegmilkcastanha.png';
+import vegmilkcoco from '../../assets/img/vidaveg/vegmilkcoco.png';
+import vegmilkproteina from '../../assets/img/vidaveg/vegmilkproteina.png';
+import vegmilkamendoas1l from '../../assets/img/vidaveg/vegmilkamendoas1l.png';
+import vegmilkcoco1l from '../../assets/img/vidaveg/vegmilkcoco1l.png';
+import capavidaveg from '../../assets/img/vidaveg/capavidaveg.jpeg';
+
+/* css */
 import styles from './Brands.module.scss';
 
 function VidaVeg() {
@@ -6,178 +46,185 @@ function VidaVeg() {
     <>
       <img
         className={`${styles.img_main} ${styles.img_main_vidaveg}`}
-        src="https://www.vidaveg.com.br/wp-content/uploads/2021/12/banner-vida-veg-1920x1080-1.jpg"
-        alt=""
+        src={capavidaveg}
+        alt="Imagem capa Vida Veg"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/04425c2c7dc25b9196c88695bff3e060/k/i/kit_leites_fresco.png"
-        alt=""
+        src={mousse}
+        alt="Mousse de chocolate vidaveg"
       />
       <img
         className={styles.img_products}
-        src="https://vidaveg.com.br/wp-content/uploads/2021/01/26278-MOCKUP-CREME-DE-CASTANHA-TRADICIONAL_AF01.png"
-        alt=""
+        src={requeijaovegtradicional}
+        alt="Requeijao veg tradicional"
       />
       <img
         className={styles.img_products}
-        src="https://vidaveg.com.br/wp-content/uploads/2021/01/26630-MOCKUP-CREME-DE-CASTANHA-ERVAS-FINAS-COM-PESTO_AF01-removebg-preview.png"
-        alt=""
+        src={requeijaovegervasfinasepesto}
+        alt="Requeijão veg ervas finas e pesto"
+      />
+      <img className={styles.img_products} src={requeijaovegdefumado} alt="" />
+      <img
+        className={styles.img_products}
+        src={cremedecastanhadecajutradicional}
+        alt="Creme de castanha de caju tradicional"
       />
       <img
         className={styles.img_products}
-        src="https://www.vidaveg.com.br/wp-content/uploads/2021/07/manteiga-1.png"
-        alt=""
+        src={cremedecastanhadecajuervasfinasepesto}
+        alt="creme de castanha de caju ervas finas e pesto"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/3/4/34381-mockup-homus-tradicional_af02.png"
-        alt=""
+        src={manteigaveg}
+        alt="Manteiga veg"
+      />
+      <img className={styles.img_products} src={homus} alt="Homus" />
+      <img
+        className={styles.img_products}
+        src={requeijaobisnagaamarelo}
+        alt="Requeijao bisnaga amarelo"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/2/6/26626-mockup-requeijao-defumado_af02.png"
-        alt=""
+        src={requeijaobisnagabranco}
+        alt="Requeijao bisnaga branco"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/1/2/12385-mockup-requeijao-tradicional_af02.png"
-        alt=""
+        src={mucarela}
+        alt="Queijo muçarela"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/1/2/12389-mockup-requeijao-de-ervas-finas-e-pesto_af02.png"
-        alt=""
+        src={fondue}
+        alt="Fondue de queijo"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/3/3/33162-mockup-etiqueta-requeijao-defumado-bisnaga_af01_1_.png"
-        alt=""
+        src={queijoparmesao}
+        alt="Queijo parmesão"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/3/3/33115-mockup-etiqueta-requeijao-tradicional-bisnaga_af01.png"
-        alt=""
+        src={queijoparmesaoralado}
+        alt="Queijo parmesão ralado"
       />
       <img
         className={styles.img_products}
-        src="https://www.vidaveg.com.br/wp-content/uploads/2021/10/31757-MOCKUP-ETIQUETA-QUEIJO-PARMESAO-DE-CASTANHA-DE-CAJU-150G_AF02-removebg-preview.png"
-        alt=""
+        src={queijominasfrescal}
+        alt="Queijo minas frescal"
       />
       <img
         className={styles.img_products}
-        src="https://www.vidaveg.com.br/wp-content/uploads/2021/10/Fatiado-removebg-preview.png"
-        alt=""
+        src={queijominaspadrao}
+        alt="Queijo minas padrao"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/3/4/34410-mockup-queijo-parmesao-ralado_af01.png"
-        alt=""
+        src={queijomucarela}
+        alt="Queijo mucarela"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/3/4/34379_mockup_fondue_vegano_350g_frente_af01.png"
-        alt=""
+        src={queijomussarela}
+        alt="Queijo mussarela"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161125_mockup_queijo_mussarela_de_castanha_de_caju_2kg_a01.png"
-        alt=""
+        src={iogurtegregovegmorango}
+        alt="Iogurte grego veg morango"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/3/1/31194-mockup-identidade-nova-queijo-mussarela-de-castanha-de-caju-300g_af02.png"
-        alt=""
+        src={iogurtegregovegtradicional}
+        alt="Iogurte grego veg tradicional"
       />
       <img
         className={styles.img_products}
-        src="https://www.vidaveg.com.br/wp-content/uploads/2020/02/QUEIJO_VIDA_VEG_DE_CASTANHA_DE_CAJU_MINAS_PADRAO_200GRX12_7898958161538-removebg-preview.png"
-        alt=""
+        src={iogurteproteinmorango}
+        alt="Iogurte protein morango"
       />
       <img
         className={styles.img_products}
-        src="https://www.vidaveg.com.br/wp-content/uploads/2020/02/QUEIJO_VIDA_VEG_DE_CASTANHA_DE_CAJU_MINAS_FRESCAL_200GRX12_-_7898958161521_499x499-removebg-preview.png"
-        alt=""
+        src={iogurteproteintradicional}
+        alt="Iogurte protein tradicional"
       />
       <img
         className={styles.img_products}
-        src="https://www.vidaveg.com.br/wp-content/uploads/2021/11/32422-MOCKUP-IOGURTE-VEG-PROTEIN-TRADICIONAL-POTE-160G_AF01-removebg-preview.png"
-        alt=""
+        src={iogvegbanana}
+        alt="Iogurte veg banana"
       />
       <img
         className={styles.img_products}
-        src="https://www.vidaveg.com.br/wp-content/uploads/2021/11/31803-MOCKUP-IOGURTE-VEG-PROTEIN-MORANGO-POTE-160G_AF01-removebg-preview.png"
-        alt=""
+        src={iogvegcoco}
+        alt="Iogurte veg coco"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161507-mockup-_iogurte_veg_protein_-_morango_250g_a01.png"
-        alt=""
+        src={iogvegmorango}
+        alt="Iogurte veg morango"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161514-mockup-iogurte_veg_protein_-_amendoim_-_250g_a02.png"
-        alt=""
+        src={iogvegamendoim250}
+        alt="Iogurte veg amendoim 250"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/3/1/31799-mockup-iogurte-veg-protein---cookies-and-cream-250g_af01.png"
-        alt=""
+        src={iogvegcookies250}
+        alt="Ioguerte veg cookies 250"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/i/o/iogurte_gregoveg_vida_veg_morango_150gx12_7898958161415.png"
-        alt=""
+        src={iogvegbanana500}
+        alt="iogurte veg banana 500"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/3/1/31214-mockup-identidade_nova-gregoveg_tradicional_180g-af03.png"
-        alt=""
+        src={iogvegcoco500}
+        alt="iogurte veg coco 500"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/i/o/iogurte_gregoveg_vida_veg_morango_150gx12_7898958161415.png"
-        alt=""
+        src={iogvegmorango500}
+        alt="iogurte veg morango 500"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161170-mockup_iogurte_coco_natural_-_zero_acucar_500g_d03.png"
-        alt=""
+        src={vegmilkamendoas}
+        alt="Veg milk amendoas"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161033_mockup_-_iogurte_coco_com_morango_-_500g.png"
-        alt=""
+        src={vegmilkaveia}
+        alt="Veg milk aveia"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161019-mockup---iogurte-coco-natural---500g_a02.png"
-        alt=""
+        src={vegmilkcastanha}
+        alt="Veg milk castanha"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161040-mockup_-_iogurte_coco_com_bmm_-_500g_a01-op2.png"
-        alt=""
+        src={vegmilkcoco}
+        alt="Veg milk coco"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161187-mockup_iogurte_coco_com_morango_-_zero_acucar_500g_b02.png"
-        alt=""
+        src={vegmilkproteina}
+        alt="Veg milk proteina"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161194_mockup-iogurte_coco_natural-170g_a04.png"
-        alt=""
+        src={vegmilkamendoas1l}
+        alt="Veg milk amendoas 1l"
       />
       <img
         className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161217-mockup-_iogurte_coco_com_bmm-_170g_a05.png"
-        alt=""
-      />
-      <img
-        className={styles.img_products}
-        src="https://loja.vidaveg.com.br/media/catalog/product/cache/e928b84fd671f46d7960e6ef707820a9/7/8/7898958161200_mockup_-_iogurte_coco_com_morango_170g_a03.png"
-        alt=""
+        src={vegmilkcoco1l}
+        alt="Veg milk coco 1l"
       />
     </>
   );

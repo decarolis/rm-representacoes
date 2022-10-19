@@ -13,8 +13,6 @@ function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  console.log(location);
-
   const controlNavbar = useCallback(() => {
     if (typeof window !== 'undefined') {
       if (window.scrollY > lastScrollY) {
@@ -75,13 +73,13 @@ function Navbar() {
           }`}
         >
           <li>
-            <Link to="/about">sobre</Link>
+            <Link to="/sobre">sobre</Link>
           </li>
           <li>
-            <Link to="/about">marcas</Link>
+            <Link to="/marcas">marcas</Link>
           </li>
           <li>
-            <Link to="/contact">contato</Link>
+            <Link to="/contato">contato</Link>
           </li>
         </div>
       </ul>

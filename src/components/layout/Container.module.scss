@@ -1,10 +1,10 @@
 .container {
   position: relative;
-  margin-top: calc(32px + 1rem);
-  min-height: 90vh;
+  padding-top: 80px;
   width: 100%;
+  overflow-y: hidden;
 
-  .adamsrib1_1, .adamsrib2_1, .adamsrib3_1 {
+  .adamsrib1, .adamsrib2, .adamsrib3 {
     animation: wind 10s infinite alternate;
     position: absolute;
     top: 0;
@@ -12,15 +12,7 @@
     width: 100px;
     z-index: 21;
   }
-  .adamsrib1_2, .adamsrib2_2, .adamsrib3_2 {
-    animation: wind 10s infinite alternate;
-    position: absolute;
-    top: 570px;
-    right: 0;
-    width: 100px;
-    z-index: 20;
-  }
-  .adamsrib2_1, .adamsrib2_2 {
+  .adamsrib2 {
     animation: wind 10s infinite alternate-reverse;
   }
 }
@@ -46,13 +38,8 @@
 
 @media (min-width: 768px) {
   .container {
-    .adamsrib1_1, .adamsrib2_1, .adamsrib3_1 {
+    .adamsrib1, .adamsrib2, .adamsrib3 {
       width: 200px;
-    }
-
-    .adamsrib1_2, .adamsrib2_2, .adamsrib3_2 {
-      width: 200px;
-      top: 1150px;
     }
   }
 }

@@ -1,3 +1,32 @@
+import capaveganway from '../../assets/img/veganway/capaveganway.jpeg';
+import A_FUSION_PROTEIN_BAUNILHA_VEGANWAY from '../../assets/img/veganway/A_FUSION_PROTEIN_BAUNILHA_VEGANWAY.jpg';
+import A_FUSION_PROTEIN_CACAU_VEGANWAY from '../../assets/img/veganway/A_FUSION_PROTEIN_CACAU_VEGANWAY.jpg';
+import A_FUSION_PROTEIN_NATURAL_VEGANWAY from '../../assets/img/veganway/A_FUSION_PROTEIN_NATURAL_VEGANWAY.jpg';
+import B_PROTEINA_DE_ARROZ_RICE_PROTEIN_CACAU_VEGANWAY_p from '../../assets/img/veganway/B_PROTEINA_DE_ARROZ_RICE_PROTEIN_CACAU_VEGANWAY_p.jpg';
+import B_PROTEINA_DE_ARROZ_RICE_PROTEIN_MORANGO_VEGANWAY from '../../assets/img/veganway/B_PROTEINA_DE_ARROZ_RICE_PROTEIN_MORANGO_VEGANWAY.jpg';
+import B_PROTEINA_DE_ARROZ_RICE_PROTEIN_NATURAL_VEGANWAY from '../../assets/img/veganway/B_PROTEINA_DE_ARROZ_RICE_PROTEIN_NATURAL_VEGANWAY.jpg';
+import C_PEA_PROTEIN_BAUNILHA_VEGANWAY from '../../assets/img/veganway/C_PEA_PROTEIN_BAUNILHA_VEGANWAY.jpg';
+import C_PEA_PROTEIN_CACAU_COM_MORANGO_VEGANWAY from '../../assets/img/veganway/C_PEA_PROTEIN_CACAU_COM_MORANGO_VEGANWAY.jpg';
+import C_PEA_PROTEIN_NATURAL_VEGANWAY from '../../assets/img/veganway/C_PEA_PROTEIN_NATURAL_VEGANWAY.jpg';
+import D_PEAT from '../../assets/img/veganway/D_PEAT.jpg';
+import E_LEVEDURA_NUTRICIONAL_NOVO_COSTELA_VEGANWAY from '../../assets/img/veganway/E_LEVEDURA_NUTRICIONAL_NOVO_COSTELA_VEGANWAY.jpg';
+import E_LEVEDURA_NUTRICIONAL_NOVO_MANTEIGA_VEGANWAY from '../../assets/img/veganway/E_LEVEDURA_NUTRICIONAL_NOVO_MANTEIGA_VEGANWAY.jpg';
+import E_LEVEDURA_NUTRICIONAL_NOVO_NATURAL_VEGANWAY_1 from '../../assets/img/veganway/E_LEVEDURA_NUTRICIONAL_NOVO_NATURAL_VEGANWAY_1.jpeg';
+import E_LEVEDURA_NUTRICIONAL_NOVOI_ALECRIM_VEGANWAY from '../../assets/img/veganway/E_LEVEDURA_NUTRICIONAL_NOVOI_ALECRIM_VEGANWAY.jpg';
+import E_LEVEDURA_NUTRICIONAL_PROVOLONE_VEGANWAY from '../../assets/img/veganway/E_LEVEDURA_NUTRICIONAL_PROVOLONE_VEGANWAY.jpg';
+import E_LEVEDURA_NUTRICIONAL_SPECIAL_POWDER_VEGANWAY from '../../assets/img/veganway/E_LEVEDURA_NUTRICIONAL_SPECIAL_POWDER_VEGANWAY.jpg';
+import F_flakes_100g2_1 from '../../assets/img/veganway/F_flakes_100g2_1.jpg';
+import G_capsulas_D3 from '../../assets/img/veganway/G_capsulas_D3.jpg';
+import G_capsulas_metil_b12 from '../../assets/img/veganway/G_capsulas_metil_b12.jpg';
+import G_capsulas_triptonfano from '../../assets/img/veganway/G_capsulas_triptonfano.jpg';
+import G_capsulas_vitac from '../../assets/img/veganway/G_capsulas_vitac.jpg';
+import H_PALATINOSE_VEGANWAY_1 from '../../assets/img/veganway/H_PALATINOSE_VEGANWAY_1.jpg';
+import I_imagem_site from '../../assets/img/veganway/I_imagem_site.jpg';
+import J_Glutamina_1 from '../../assets/img/veganway/J_Glutamina_1.jpg';
+import K_GLUTAIMUNE_SHOT_IMUNIDADE from '../../assets/img/veganway/K_GLUTAIMUNE_SHOT_IMUNIDADE.jpg';
+import K_termogenico_natural_thermoC210 from '../../assets/img/veganway/K_termogenico_natural_thermoC210.jpg';
+import L_CREATINE_SITE from '../../assets/img/veganway/L_CREATINE_SITE.jpg';
+
 /* css*/
 import styles from './Brands.module.scss';
 
@@ -6,143 +35,143 @@ function VeganWay() {
     <>
       <img
         className={`${styles.img_main} ${styles.img_main_veganway}`}
-        src="https://veganway.com.br/wp-content/uploads/2022/09/header-post.jpg"
-        alt=""
+        src={capaveganway}
+        alt="Imagem capa Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/FUSION-PROTEIN-BAUNILHA-VEGANWAY.jpg"
-        alt=""
+        src={A_FUSION_PROTEIN_BAUNILHA_VEGANWAY}
+        alt="Imagem FUSION_PROTEIN_BAUNILHA Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/FUSION-PROTEIN-CACAU-VEGANWAY.jpg"
-        alt=""
+        src={A_FUSION_PROTEIN_CACAU_VEGANWAY}
+        alt="Imagem FUSION_PROTEIN_CACAU Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/FUSION-PROTEIN-NATURAL-VEGANWAY.jpg"
-        alt=""
+        src={A_FUSION_PROTEIN_NATURAL_VEGANWAY}
+        alt="Imagem FUSION_PROTEIN_NATURAL Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/PROTEINA-DE-ARROZ-RICE-PROTEIN-CACAU-VEGANWAY-p.jpg"
-        alt=""
+        src={B_PROTEINA_DE_ARROZ_RICE_PROTEIN_CACAU_VEGANWAY_p}
+        alt="Imagem PROTEINA_DE_ARROZ_RICE_PROTEIN_CACAU Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/PROTEINA-DE-ARROZ-RICE-PROTEIN-NATURAL-VEGANWAY.jpg"
-        alt=""
+        src={B_PROTEINA_DE_ARROZ_RICE_PROTEIN_MORANGO_VEGANWAY}
+        alt="Imagem PROTEINA_DE_ARROZ_RICE_PROTEIN_MORANGO Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/PROTEINA-DE-ARROZ-RICE-PROTEIN-MORANGO-VEGANWAY.jpg"
-        alt=""
+        src={B_PROTEINA_DE_ARROZ_RICE_PROTEIN_NATURAL_VEGANWAY}
+        alt="Imagem PROTEINA_DE_ARROZ_RICE_PROTEIN_NATURAL Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/PEA-PROTEIN-CACAU-COM-MORANGO-VEGANWAY.jpg"
-        alt=""
+        src={C_PEA_PROTEIN_BAUNILHA_VEGANWAY}
+        alt="Imagem PEA_PROTEIN_BAUNILHA Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/PEA-PROTEIN-BAUNILHA-VEGANWAY.jpg"
-        alt=""
+        src={C_PEA_PROTEIN_CACAU_COM_MORANGO_VEGANWAY}
+        alt="Imagem PEA_PROTEIN_CACAU_COM_MORANGO Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/PEA-PROTEIN-NATURAL-VEGANWAY.jpg"
-        alt=""
+        src={C_PEA_PROTEIN_NATURAL_VEGANWAY}
+        alt="Imagem PEA_PROTEIN_NATURAL Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/PEAT.jpg"
-        alt=""
+        src={D_PEAT}
+        alt="Imagem PEAT Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2020/07/LEVEDURA-NUTRICIONAL-NOVO-NATURAL-VEGANWAY-1.jpg"
-        alt=""
+        src={E_LEVEDURA_NUTRICIONAL_NOVO_COSTELA_VEGANWAY}
+        alt="Imagem LEVEDURA_NUTRICIONAL_NOVO_COSTELA Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2022/04/LEVEDURA-NUTRICIONAL-SPECIAL-POWDER-VEGANWAY.jpg"
-        alt=""
+        src={E_LEVEDURA_NUTRICIONAL_NOVO_MANTEIGA_VEGANWAY}
+        alt="Imagem LEVEDURA_NUTRICIONAL_NOVO_MANTEIGA Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/08/LEVEDURA-NUTRICIONAL-PROVOLONE-VEGANWAY.jpg"
-        alt=""
+        src={E_LEVEDURA_NUTRICIONAL_NOVO_NATURAL_VEGANWAY_1}
+        alt="Imagem LEVEDURA_NUTRICIONAL_NOVO_NATURAL Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2020/07/LEVEDURA-NUTRICIONAL-NOVO-MANTEIGA-VEGANWAY.jpg"
-        alt=""
+        src={E_LEVEDURA_NUTRICIONAL_NOVOI_ALECRIM_VEGANWAY}
+        alt="Imagem LEVEDURA_NUTRICIONAL_NOVOI_ALECRIM Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2020/07/LEVEDURA-NUTRICIONAL-NOVO-COSTELA-VEGANWAY.jpg"
-        alt=""
+        src={E_LEVEDURA_NUTRICIONAL_PROVOLONE_VEGANWAY}
+        alt="Imagem LEVEDURA_NUTRICIONAL_PROVOLONE Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2020/07/LEVEDURA-NUTRICIONAL-NOVOI-ALECRIM-VEGANWAY.jpg"
-        alt=""
+        src={E_LEVEDURA_NUTRICIONAL_SPECIAL_POWDER_VEGANWAY}
+        alt="Imagem LEVEDURA_NUTRICIONAL_SPECIAL_POWDER Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/flakes-100g2-1.jpg"
-        alt=""
+        src={F_flakes_100g2_1}
+        alt="Imagem flakes Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/capsulas-metil-b12.jpg"
-        alt=""
+        src={G_capsulas_D3}
+        alt="Imagem capsulas_D3 Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/capsulas-D3.jpg"
-        alt=""
+        src={G_capsulas_metil_b12}
+        alt="Imagem capsulas_metil_b12 Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/capsulas-vitac.jpg"
-        alt=""
+        src={G_capsulas_triptonfano}
+        alt="Imagem capsulas_triptonfano Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/capsulas-triptonfano.jpg"
-        alt=""
+        src={G_capsulas_vitac}
+        alt="Imagem capsulas_vitac Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/PALATINOSE-VEGANWAY-1.jpg"
-        alt=""
+        src={H_PALATINOSE_VEGANWAY_1}
+        alt="Imagem PALATINOSE_VEGANWAY Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/imagem-site.jpg"
-        alt=""
+        src={I_imagem_site}
+        alt="Imagem Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/Glutamina-1.png"
-        alt=""
+        src={J_Glutamina_1}
+        alt="Imagem Glutamina Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/GLUTAIMUNE-SHOT-IMUNIDADE.jpg"
-        alt=""
+        src={K_GLUTAIMUNE_SHOT_IMUNIDADE}
+        alt="Imagem GLUTAIMUNE_SHOT_IMUNIDADE Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/termogenico-natural-thermoC210.jpg"
-        alt=""
+        src={K_termogenico_natural_thermoC210}
+        alt="Imagem termogenico_natural Vegan Way"
       />
       <img
         className={styles.img_products}
-        src="https://veganway.com.br/wp-content/uploads/2021/07/CREATINE-SITE.jpg"
-        alt=""
+        src={L_CREATINE_SITE}
+        alt="Imagem CREATINE Vegan Way"
       />
       <img className={styles.img_products} src="" alt="" />
       <img className={styles.img_products} src="" alt="" />

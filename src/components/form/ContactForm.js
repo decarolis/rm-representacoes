@@ -4,7 +4,6 @@ import styles from './ContactForm.module.scss';
 function Form() {
   return (
     <div className={styles.contact_container}>
-      <h2>Entre em contato conosco</h2>
       <form className={styles.form_container}>
         <label>
           Nome <em>&#x2a;</em>

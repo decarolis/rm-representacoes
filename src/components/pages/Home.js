@@ -22,7 +22,10 @@ function Home() {
         text3="Açougue Vegano"
         text4="Vegan Way"
       />
-      <ContactForm />
+      <div className={styles.contact_div}>
+        <h2>Entre em contato conosco</h2>
+        <ContactForm />
+      </div>
     </section>
   );
 }

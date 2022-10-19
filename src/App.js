@@ -10,19 +10,23 @@ import Container from './components/layout/Container';
 import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import NotFound from './components/pages/NotFound';
+import About from './components/pages/About';
+import Partners from './components/pages/Partners';
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
       <Container>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/sobre" element={<About />} />
+          <Route path="/marcas" element={<Partners />} />
+          <Route path="/contato" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </Container>
-      <Footer />
     </BrowserRouter>
   );
 }

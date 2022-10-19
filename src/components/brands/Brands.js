@@ -10,7 +10,7 @@ import VeganWay from './VeganWay';
 import styles from './Brands.module.scss';
 
 function Brands({ text1, text2, text3, text4 }) {
-  const [visibleElement, setVisibleElement] = useState('');
+  const [visibleElement, setVisibleElement] = useState('vidaveg');
 
   useEffect(() => {
     if (visibleElement) {
@@ -31,7 +31,7 @@ function Brands({ text1, text2, text3, text4 }) {
         }
       },
       {
-        threshold: 0.9,
+        threshold: 0.7,
 
         /* required options*/
         // trackVisibility: true,
@@ -47,23 +47,6 @@ function Brands({ text1, text2, text3, text4 }) {
 
   return (
     <div className={styles.brands_container}>
-      <div className={styles.brand_box}>
-        <div
-          className={`${styles.brand_title} ${
-            visibleElement === 'acouguevegano' ? styles.brand_title_visible : ''
-          }`}
-        >
-          <span>{text3}</span>
-        </div>
-        <div
-          id="acouguevegano"
-          className={`${styles.brand_content} ${styles.brand_acougue} ${
-            visibleElement === 'acouguevegano' ? styles.brand_visible : ''
-          }`}
-        >
-          <AcougueVegano />
-        </div>
-      </div>
       <div className={styles.brand_box}>
         <div
           className={`${styles.brand_title} ${
@@ -113,6 +96,23 @@ function Brands({ text1, text2, text3, text4 }) {
           }`}
         >
           <VeganWay />
+        </div>
+      </div>
+      <div className={styles.brand_box}>
+        <div
+          className={`${styles.brand_title} ${
+            visibleElement === 'acouguevegano' ? styles.brand_title_visible : ''
+          }`}
+        >
+          <span>{text3}</span>
+        </div>
+        <div
+          id="acouguevegano"
+          className={`${styles.brand_content} ${styles.brand_acougue} ${
+            visibleElement === 'acouguevegano' ? styles.brand_visible : ''
+          }`}
+        >
+          <AcougueVegano />
         </div>
       </div>
     </div>

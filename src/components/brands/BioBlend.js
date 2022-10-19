@@ -1,3 +1,25 @@
+import capabioblend from '../../assets/img/bioblend/capabioblend.jpeg';
+import arrozdemoqueca from '../../assets/img/bioblend/arrozdemoqueca.jpg';
+import avemariaamarelo from '../../assets/img/bioblend/avemariaamarelo.jpg';
+import avemariacolorido from '../../assets/img/bioblend/avemariacolorido.jpg';
+import canjadavo from '../../assets/img/bioblend/canjadavo.jpg';
+import cremeverde from '../../assets/img/bioblend/cremeverde.jpg';
+import goldencurry from '../../assets/img/bioblend/goldencurry.jpg';
+import mixfibra from '../../assets/img/bioblend/mixfibra.jpg';
+import mixproteina from '../../assets/img/bioblend/mixproteina.jpg';
+import paodioquinha from '../../assets/img/bioblend/paodioquinha.jpg';
+import risotodecogumelos from '../../assets/img/bioblend/risotodecogumelos.jpg';
+import risotodecogumelos2 from '../../assets/img/bioblend/risotodecogumelos2.jpg';
+import risotodetomate from '../../assets/img/bioblend/risotodetomate.jpg';
+import risotomilanes from '../../assets/img/bioblend/risotomilanes.jpg';
+import shotdetox from '../../assets/img/bioblend/shotdetox.jpg';
+import risotodetomate2 from '../../assets/img/bioblend/risotodetomate2.jpg';
+import shottermogenico from '../../assets/img/bioblend/shottermogenico.jpg';
+import sopaamarela from '../../assets/img/bioblend/sopaamarela.jpg';
+import sopadanona from '../../assets/img/bioblend/sopadanona.jpg';
+import sopadetox from '../../assets/img/bioblend/sopadetox.jpg';
+import soparosa from '../../assets/img/bioblend/soparosa.jpg';
+
 /* css*/
 import styles from './Brands.module.scss';
 
@@ -6,108 +28,113 @@ function BioBlend() {
     <>
       <img
         className={`${styles.img_main} ${styles.img_main_bioblend}`}
-        src="https://cdn.dooca.store/29174/files/logo-1.png?v=1644960497"
-        alt=""
+        src={capabioblend}
+        alt="Imagem capa Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/lcyie8hlexmvwo3kaz8vfai35bblxxueplwt_495x495+fill_ffffff+crop_center.png?v=1657718654"
-        alt=""
+        src={arrozdemoqueca}
+        alt="Imagem arroz de moqueca Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/e1dlhmepeao4hfzbdipwci1jyelzphtbfo1v_495x495+fill_ffffff+crop_center.png?v=1657718645"
-        alt=""
+        src={avemariaamarelo}
+        alt="Imagem ave maria amarelo Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/vh3zjhwfiwfgtx3lu1ok69ljafpw8t1gkcju_495x495+fill_ffffff+crop_center.png?v=1657718444"
-        alt=""
+        src={avemariacolorido}
+        alt="Imagem ave maria colorido Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/vxhzxbh8e0jgkvcskxlod6nz24ijsicpyayt_495x495+fill_ffffff+crop_center.png?v=1649080728"
-        alt=""
+        src={canjadavo}
+        alt="Imagem canja da vo Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/icjxss2hxm8gk3pd6p1hfxa1kbrthwrcceos_495x495+fill_ffffff+crop_center.png?v=1649080713"
-        alt=""
+        src={cremeverde}
+        alt="Imagem creme verde Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/aeolmrunxvnryneeavweva9u9dhlh5uqnsto_495x495+fill_ffffff+crop_center.png?v=1649080583"
-        alt=""
+        src={goldencurry}
+        alt="Imagem golden curry Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/03_1600x1600+fill_ffffff.png?v=1657653799"
-        alt=""
+        src={mixfibra}
+        alt="Imagem mixfibra Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/canja-da-vo-frente-at-10x_495x495+fill_ffffff+crop_center.png?v=1657357167"
-        alt=""
+        src={mixproteina}
+        alt="Imagem mix proteina Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/fj5re1yxekswefreokdu0qxpmipvb33dffcw_495x495+fill_ffffff+crop_center.png?v=1649080828"
-        alt=""
+        src={paodioquinha}
+        alt="Imagem paodioquinha Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/h4cyosqus4fyctylxptvhxlkhdtnltswaof8_495x495+fill_ffffff+crop_center.png?v=1649080788"
-        alt=""
+        src={risotodecogumelos}
+        alt="Imagem risoto de cogumelos Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/ax31xtxdhcqkrhzuwxfdndsea4c4x0dvqrjp_495x495+fill_ffffff+crop_center.png?v=1649080773"
-        alt=""
+        src={risotodecogumelos2}
+        alt="Imagem risoto de cogumelos 2 Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/creme-verde-260g-frente_495x495+fill_ffffff+crop_center.png?v=1657654214"
-        alt=""
+        src={risotodetomate}
+        alt="Imagem risoto de tomate Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/fis5rwjeyi2a1narj3hiakbwwemlytbw5eyy_495x495+fill_ffffff+crop_center.png?v=1661512006"
-        alt=""
+        src={risotomilanes}
+        alt="Imagem risoto milanes Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/thp8ry3kcjsbljdgfphialw9gduv1gaiykj4_495x495+fill_ffffff+crop_center.png?v=1662114877"
-        alt=""
+        src={risotodetomate2}
+        alt="Imagem risoto de tomate 2 Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/f6pus6aaqxjoccwf9akdbhco2qzgtlpkbczq_495x495+fill_ffffff+crop_center.png?v=1661721949"
-        alt=""
+        src={shotdetox}
+        alt="Imagem shot detox Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/cg0ckg7peanx3eg3xdshyhg1ohzz0ircs8ce_495x495+fill_ffffff+crop_center.png?v=1661719293"
-        alt=""
+        src={shottermogenico}
+        alt="Imagem shot termogenico Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/mix-fibra-240g_495x495+fill_ffffff+crop_center.png?v=1658575587"
-        alt=""
+        src={sopaamarela}
+        alt="Imagem sopa amarela Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/xioi4nacaamjfhvhv4qxtaowx4vyek2nry7s_495x495+fill_ffffff+crop_center.png?v=1649080757"
-        alt=""
+        src={sopadanona}
+        alt="Imagem sopa da nona Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/shot-detox-170g_495x495+fill_ffffff+crop_center.png?v=1665085148"
-        alt=""
+        src={sopadetox}
+        alt="Imagem sopa detox Bio Blend"
       />
       <img
         className={styles.img_products}
-        src="https://cdn.dooca.store/29174/products/duc2t6grzorivwucp59pviwmx9vxnxnk7ump_495x495+fill_ffffff+crop_center.png?v=1655472287"
-        alt=""
+        src={soparosa}
+        alt="Imagem sopa rosa Bio Blend"
+      />
+      <img
+        className={styles.img_products}
+        src={capabioblend}
+        alt="Imagem capa Bio Blend"
       />
       <img className={styles.img_products} src="" alt="" />
     </>

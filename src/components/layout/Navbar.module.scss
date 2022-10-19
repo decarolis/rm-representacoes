@@ -1,12 +1,12 @@
 .navbar {
-  border: 1px solid red;
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 1rem 0;
+  padding: 1rem 0 2rem 0;
   z-index: 20;
   font-size: 1.3rem;
   transition: all .2s ease-in-out;
+  background-image: linear-gradient(to bottom, black 60%, transparent 100%);
 
   img {
     position: absolute;
@@ -26,11 +26,9 @@
     height: 32px;
     display: flex;
     align-items: center;
-    border: 1px solid red;
     padding: 20px 0;
 
     .li_wraper {
-      border: 1px solid red;
       white-space: nowrap;
       margin-left: 1rem;
       transition: .5s ease-in-out;
@@ -42,7 +40,7 @@
         margin-right: 2rem;
         color: var(--primary);
         font-weight: 700;
-        transition: .5s;
+        transition: .2s;
 
         &:hover {
           color: var(--secondary);

@@ -34,6 +34,7 @@ html {
 body {
   color: var(--secondary);
   background-color: var(--gray900);
+  overflow-x: hidden;
 }
 
 h1 {
@@ -41,14 +42,12 @@ h1 {
   letter-spacing: .2rem;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  border: 1px solid red;
 }
 
 h2 {
   font-weight: 100;
   font-size: 3.5rem;
   line-height: .9;
-  border: 1px solid red;
 }
 
 a {

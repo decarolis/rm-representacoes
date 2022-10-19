@@ -1,11 +1,14 @@
 .footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  padding: 3rem 1rem;
+  background-color: var(--primary);
+  border-top: 1px solid var(--gray300);
+  z-index: 10;
+
+  .footer_div {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: var(--primary);
-    border-top: 1px solid var(--gray300);
+    justify-content: flex-start;
+    max-width: 600px;
 
     div {
       padding-top: 1.5rem;
@@ -13,5 +16,13 @@
 
     img {
       width: 150px;
+      margin-left: auto;
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 3rem 5rem;
+  }
 }
