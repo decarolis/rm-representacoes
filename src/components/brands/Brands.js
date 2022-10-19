@@ -10,7 +10,7 @@ import VeganWay from './VeganWay';
 import styles from './Brands.module.scss';
 
 function Brands({ text1, text2, text3, text4 }) {
-  const [visibleElement, setVisibleElement] = useState('');
+  const [visibleElement, setVisibleElement] = useState('vidaveg');
 
   useEffect(() => {
     if (visibleElement) {
