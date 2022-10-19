@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 
 /* brands */
 import VidaVeg from './VidaVeg';
@@ -10,7 +10,7 @@ import VeganWay from './VeganWay';
 import styles from './Brands.module.scss';
 
 function Brands({ text1, text2, text3, text4 }) {
-  const [visibleElement, setVisibleElement] = useState('vidaveg');
+  const [visibleElement, setVisibleElement] = useState('');
 
   useEffect(() => {
     if (visibleElement) {
@@ -21,7 +21,7 @@ function Brands({ text1, text2, text3, text4 }) {
     }
   }, [visibleElement]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const intersectionObserver = new IntersectionObserver(
       entries => {
         if (entries.some(entry => entry.isIntersecting)) {
@@ -31,7 +31,7 @@ function Brands({ text1, text2, text3, text4 }) {
         }
       },
       {
-        threshold: 0.7,
+        threshold: 0.8,
 
         /* required options*/
         // trackVisibility: true,

@@ -1,4 +1,4 @@
-import capabioblend from '../../assets/img/bioblend/capabioblend.jpeg';
+import capabioblend from '../../assets/img/bioblend/capabioblend.png';
 import arrozdemoqueca from '../../assets/img/bioblend/arrozdemoqueca.jpg';
 import avemariaamarelo from '../../assets/img/bioblend/avemariaamarelo.jpg';
 import avemariacolorido from '../../assets/img/bioblend/avemariacolorido.jpg';

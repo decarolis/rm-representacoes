@@ -36,7 +36,7 @@ import vegmilkcoco from '../../assets/img/vidaveg/vegmilkcoco.png';
 import vegmilkproteina from '../../assets/img/vidaveg/vegmilkproteina.png';
 import vegmilkamendoas1l from '../../assets/img/vidaveg/vegmilkamendoas1l.png';
 import vegmilkcoco1l from '../../assets/img/vidaveg/vegmilkcoco1l.png';
-import capavidaveg from '../../assets/img/vidaveg/capavidaveg.jpeg';
+import capavidaveg from '../../assets/img/vidaveg/capavidaveg.png';
 
 /* css */
 import styles from './Brands.module.scss';

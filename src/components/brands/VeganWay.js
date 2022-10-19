@@ -1,4 +1,4 @@
-import capaveganway from '../../assets/img/veganway/capaveganway.jpeg';
+import capaveganway from '../../assets/img/veganway/capaveganway.png';
 import A_FUSION_PROTEIN_BAUNILHA_VEGANWAY from '../../assets/img/veganway/A_FUSION_PROTEIN_BAUNILHA_VEGANWAY.jpg';
 import A_FUSION_PROTEIN_CACAU_VEGANWAY from '../../assets/img/veganway/A_FUSION_PROTEIN_CACAU_VEGANWAY.jpg';
 import A_FUSION_PROTEIN_NATURAL_VEGANWAY from '../../assets/img/veganway/A_FUSION_PROTEIN_NATURAL_VEGANWAY.jpg';

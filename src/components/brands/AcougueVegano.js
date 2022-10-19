@@ -1,4 +1,4 @@
-import capaacougue from '../../assets/img/acougue/capaacougue.jpeg';
+import capaacougue from '../../assets/img/acougue/capaacougue.png';
 import A_Cheddar_vegano from '../../assets/img/acougue/A_Cheddar_vegano.png';
 import B_Almondega_Shiitake from '../../assets/img/acougue/B_Almondega_Shiitake.png';
 import B_Carne_de_Jaca from '../../assets/img/acougue/B_Carne_de_Jaca.png';
