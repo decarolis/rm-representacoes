@@ -9,6 +9,18 @@
     font-weight: 300;
     margin: 1rem 0;
 
+    p {
+      margin-top: .5rem;
+    }
+
+    .success {
+      color: #9dc38e;
+    }
+
+    .error {
+      color: #f45702;
+    }
+
     label, input, textarea {
       display: block;
       width: 100%;
