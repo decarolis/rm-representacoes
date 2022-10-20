@@ -47,6 +47,7 @@
       margin-left: 70%;
       transition: all .5s ease-out;
       scrollbar-color: #f45702 var(--primary);
+      border-radius: 0 0 0 100px;
 
       .img_products {
         margin: 5rem;
@@ -62,7 +63,9 @@
     }
 
     .brand_content::-webkit-scrollbar-track {
-	    background-color: var(--primary);
+      margin-left: 100px;
+      border-radius: 10px;
+	    background-color: transparent;
     }
 
     .brand_content::-moz-scrollbar-track {
@@ -75,16 +78,16 @@
 
     .brand_content::-webkit-scrollbar {
       height: 10px;
-	    background-color: var(--primary);
+	    background-color: transparent;
     }
 
     .brand_content::-moz-scrollbar {
-      height: 10px;
+      height: 5px;
 	    background-color: var(--primary);
     }
 
     .brand_content::-o-scrollbar {
-      height: 10px;
+      height: 5px;
 	    background-color: var(--primary);
     }
 
