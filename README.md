@@ -2,7 +2,7 @@
 
 React application!
 
-https://peti.pt/
+https://rochamuniz.com.br/
 
 <img src="./src/assets/img/tela.jpg" width="460">
 
