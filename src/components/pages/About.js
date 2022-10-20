@@ -10,16 +10,16 @@ function About() {
         olhar para o mundo e compreender que certos hábitos precisam ser
         revistos. As questões ambientais são urgentes e a alimentação
         vegetariana é essencial para a saúde humana e do planeta. Somos a Rocha
-        Muniz Representações, uma nova marca com o propósito de democratizar o
-        acesso à produtos vegetarianos.
+        Muniz Representações e temos o propósito de democratizar o acesso à
+        produtos vegetarianos.
       </p>
       <p>
         Somos apaixonados pela natureza e pelos animais, exploradores em busca
-        de novos produtos vegetarianos. Por muito tempo, Raquel trabalhou com o
-        Grupo Cereais Bramil e possui vasta experiência com a área comercial.
-        Compreende que exposição adequada de produtos e o diálogo informativo
-        com clientes são fundamentais. Vegetariana há quase 15 anos, acredita
-        que um mundo melhor é construído cotidianamente.
+        de novos produtos vegetarianos. Por muito tempo, Raquel possui vasta
+        experiência com a área comercial, de forma que compreende que exposição
+        adequada de produtos e o diálogo informativo com clientes são
+        fundamentais. Vegetariana há quase 15 anos, acredita que um mundo melhor
+        é construído cotidianamente.
       </p>
       <p>
         Estamos situados em Petrópolis, Região Serrana do Rio de Janeiro e nos
