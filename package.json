@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "rochamuniz",
+  "homepage": "https://rochamuniz.com.br/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -37,7 +37,7 @@
 
     .brand_content {
       display: flex;
-      overflow-x: auto;
+      overflow-x: scroll;
       height: 500px;
       max-height: 80vh;
       min-height: 60vh;
@@ -46,7 +46,7 @@
       border-bottom: 10px solid var(--primary);
       margin-left: 70%;
       transition: all .5s ease-out;
-      border-radius: 0 0 0 100px;
+      scrollbar-color: #f45702 var(--primary);
 
       .img_products {
         margin: 5rem;
@@ -59,6 +59,48 @@
         margin-right: 5rem;
         height: 100%;
       }
+    }
+
+    .brand_content::-webkit-scrollbar-track {
+	    background-color: var(--primary);
+    }
+
+    .brand_content::-moz-scrollbar-track {
+	    background-color: var(--primary);
+    }
+
+    .brand_content::-o-scrollbar-track {
+	    background-color: var(--primary);
+    }
+
+    .brand_content::-webkit-scrollbar {
+      height: 10px;
+	    background-color: var(--primary);
+    }
+
+    .brand_content::-moz-scrollbar {
+      height: 10px;
+	    background-color: var(--primary);
+    }
+
+    .brand_content::-o-scrollbar {
+      height: 10px;
+	    background-color: var(--primary);
+    }
+
+    .brand_content::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+	    background-color: #f45702;
+    }
+
+    .brand_content::-moz-scrollbar-thumb {
+      border-radius: 10px;
+	    background-color: #f45702;
+    }
+
+    .brand_content::-o-scrollbar-thumb {
+      border-radius: 10px;
+	    background-color: #f45702;
     }
 
     .brand_visible {

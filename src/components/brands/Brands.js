@@ -25,8 +25,6 @@ function Brands({ text1, text2, text3, text4 }) {
     const intersectionObserver = new IntersectionObserver(
       entries => {
         if (entries.some(entry => entry.isIntersecting)) {
-          console.log('oi ' + entries[0].target.id);
-          console.log(entries[0]);
           setVisibleElement(entries[0].target.id);
         }
       },

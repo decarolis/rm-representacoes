@@ -40,307 +40,307 @@ function Container({ children }) {
   return (
     <main className={styles.container}>
       <img
-        style={{ top: `${-(offset * 1.5)}px` }}
+        style={{ top: `${-(offset * 0.5)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5)}px` }}
+        style={{ top: `${-(offset * 0.5)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5)}px` }}
+        style={{ top: `${-(offset * 0.5)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 2)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 2)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 2)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 2)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 2)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 2)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 3)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 3)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 3)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 3)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 3)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 3)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 4)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 4)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 4)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 4)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 4)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 4)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 5)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 5)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 5)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 5)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 5)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 5)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 6)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 6)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 6)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 6)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 6)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 6)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 7)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 7)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 7)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 7)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 7)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 7)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 8)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 8)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 8)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 8)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 8)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 8)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 9)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 9)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 9)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 9)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 9)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 9)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 10)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 10)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 10)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 10)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 10)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 10)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 11)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 11)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 11)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 11)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 11)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 11)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 12)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 12)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 12)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 12)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 12)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 12)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 13)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 13)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 13)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 13)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 13)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 13)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 14)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 14)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 14)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 14)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 14)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 14)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 15)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 15)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 15)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 15)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 15)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 15)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 16)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 16)}px` }}
         className={styles.adamsrib1}
         src={adamsrib1}
         alt="Folha costela de adão 1"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 16)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 16)}px` }}
         className={styles.adamsrib2}
         src={adamsrib2}
         alt="Folha costela de adão 2"
       />
       <img
-        style={{ top: `${-(offset * 1.5 - imgDif * 16)}px` }}
+        style={{ top: `${-(offset * 0.5 - imgDif * 16)}px` }}
         className={styles.adamsrib3}
         src={adamsrib3}
         alt="Folha costela de adão 3"

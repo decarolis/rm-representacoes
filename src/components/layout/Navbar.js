@@ -31,10 +31,15 @@ function Navbar() {
   }, [lastScrollY, location.pathname.length]);
 
   useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+
     if (location.pathname.length > 1) {
       setNavLogo(true);
     }
-  }, [location.pathname.length]);
+  }, [location.pathname]);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -52,10 +57,14 @@ function Navbar() {
       <img
         className={navLogo ? styles.navlogo : ''}
         src={Logo}
-        onClick={() => {
+        onClick={e => {
           if (location.pathname.length > 1) {
+            e.currentTarget.src = Logo;
+            setNavLogo(false);
             navigate('/');
           } else {
+            e.currentTarget.src = Logo;
+            setNavLogo(false);
             window.scrollTo({
               top: 0,
               behavior: 'smooth',
