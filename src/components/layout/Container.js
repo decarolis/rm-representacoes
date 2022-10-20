@@ -10,7 +10,7 @@ let mounted;
 
 function Container({ children }) {
   const [offset, setOffset] = useState(0);
-  const [imgDif, setImgDif] = useState(window.innerWidth >= 768 ? 1150 : 570);
+  const [imgDif, setImgDif] = useState(window.innerWidth >= 768 ? 1150 : 340);
 
   useEffect(() => {
     function handleResize() {
@@ -19,7 +19,7 @@ function Container({ children }) {
         if (window.innerWidth >= 768) {
           setImgDif(1150);
         } else {
-          setImgDif(570);
+          setImgDif(340);
         }
       }, 500);
     }
