@@ -37,6 +37,10 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  min-height: calc(100vh - 150px - 10rem);
+}
+
 h1 {
   font-weight: 100;
   letter-spacing: .2rem;
