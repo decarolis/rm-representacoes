@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 /* brands */
 import VidaVeg from './VidaVeg';
@@ -21,11 +21,15 @@ function Brands({ text1, text2, text3, text4 }) {
     }
   }, [visibleElement]);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const intersectionObserver = new IntersectionObserver(
       entries => {
         if (entries.some(entry => entry.isIntersecting)) {
-          setVisibleElement(entries[0].target.id);
+          for (let i = 0; i < entries.length; i++) {
+            if (entries[i].isIntersecting) {
+              setVisibleElement(entries[i].target.id);
+            }
+          }
         }
       },
       {
