@@ -5,10 +5,9 @@ import ReactGA from 'react-ga';
 import styles from './About.module.scss';
 
 function About() {
-  function Contact() {
-    useEffect(() => {
-      ReactGA.pageview(window.location.pathname);
-    }, []);
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
 
   return (
     <section className={styles.about}>
