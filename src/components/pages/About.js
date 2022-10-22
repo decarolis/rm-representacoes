@@ -1,7 +1,15 @@
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
+
 /* css*/
 import styles from './About.module.scss';
 
 function About() {
+  function Contact() {
+    useEffect(() => {
+      ReactGA.pageview(window.location.pathname);
+    }, []);
+
   return (
     <section className={styles.about}>
       <h2>Sobre a Rocha Muniz</h2>

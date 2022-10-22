@@ -1,9 +1,15 @@
+import { useEffect } from 'react';
 import Brands from '../brands/Brands';
+import ReactGA from 'react-ga';
 
 /* css*/
 import styles from './Partners.module.scss';
 
 function Partners() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <section className={styles.partners}>
       <h2>Marcas Parceiras</h2>

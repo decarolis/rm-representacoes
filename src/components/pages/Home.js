@@ -1,11 +1,17 @@
+import { useEffect } from 'react';
 import Logo from '../../assets/img/logo1024.png';
 import Brands from '../brands/Brands';
 import ContactForm from '../form/ContactForm';
+import ReactGA from 'react-ga';
 
 /* css*/
 import styles from './Home.module.scss';
 
 function Home() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <section className={styles.home}>
       <div className={styles.title}>
