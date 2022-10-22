@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from 'react';
+import ReactGA from 'react-ga';
 
 /* components */
 import Navbar from './components/layout/Navbar';
@@ -12,6 +13,9 @@ import Contact from './components/pages/Contact';
 import NotFound from './components/pages/NotFound';
 import About from './components/pages/About';
 import Partners from './components/pages/Partners';
+
+const TRACKING_ID = 'UA-246583589-2';
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
